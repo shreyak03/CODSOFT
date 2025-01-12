@@ -2,37 +2,37 @@
 using namespace std;
 class Calculator
 {
-    float a,b;
+    float num1,num2;
     public:
     void input()
     {
         cout<<"\n Enter first number:";
-        cin>>a;
+        cin>>num1;
         cout<<"\n Enter second number:";
-        cin>>b;
+        cin>>num2;
     }
     float sum()
     {
-        return a+b;
+        return num1+num2;
     }
     float difference()
     {
-        return a-b;
+        return num1-num2;
     }
     float product()
     {
-        return a*b;
+        return num1*num2;
     }
     float divide()
     {
-        if(b==0)
+        if(num2==0)
         {
             cout<<"\n Division by zero not valid!";
-            return 0;
+            return;
         }
         else
         {
-            return a/b;
+            return num1/num2;
         }
     }
 }c;
