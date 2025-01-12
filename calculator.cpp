@@ -28,7 +28,7 @@ class Calculator
         if(num2==0)
         {
             cout<<"\n Division by zero not valid!";
-            return;
+            return 0;
         }
         else
         {
